@@ -1,4 +1,4 @@
-"use client";  // ✅ Obligamos a que sea un componente de cliente
+"use client";  // ✅ Esto evita el prerender en el servidor
 
 import { useEffect, useState } from "react";
 import { personalData } from "@/utils/data/personal-data";
@@ -16,6 +16,8 @@ export default function Home() {
 
   useEffect(() => {
     async function getData() {
+      if (typeof window === "undefined") return; // ✅ Evita que se ejecute en el servidor
+
       try {
         const res = await fetch(
           `https://dev.to/api/articles?username=${personalData.devUsername}`
