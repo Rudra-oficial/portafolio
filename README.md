@@ -1,0 +1,3 @@
+# Mi portafolio
+
+### Soy un Desarrollador Full Stack MERN altamente calificado con más de 3 años de experiencia en programación JavaScript. Me especializo en la creación de aplicaciones web robustas y escalables utilizando tecnologías como MongoDB, Express.js, React y Node.js. Contribuyo eficazmente en equipos multidisciplinarios, tomando decisiones informadas y entregando resultados excepcionales. Mi enfoque abarca la seguridad, escalabilidad y diseño de interfaces intuitivas
